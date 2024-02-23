@@ -31,7 +31,6 @@ The project follows a specific structure and defines several API routes for diff
 
 - Provides appropriate HTTP status codes and error messages for different scenarios, including authorization failures, validation errors, and resource not found.
 
-```markdown
 # API Endpoints
 
 ## User Registration and Token Generation Endpoints
@@ -97,8 +96,6 @@ These endpoints handle order management functionalities, allowing customers, man
 | /api/orders/{orderId}     | Manager  | DELETE | Deletes the order                                            |
 | /api/orders               | Delivery crew | GET | Returns all orders with order items assigned to the delivery crew |
 | /api/orders/{orderId}     | Delivery crew | PATCH | Updates the order status                                     |
-
-```
 
 
 ## Additional Features
